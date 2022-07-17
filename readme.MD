@@ -1,5 +1,5 @@
-## Single script for collecting publication and actualites from [Troinex](https://troinex.ch/actualites/), [Communa de plan-les-ouates](https://www.plan-les-ouates.ch/actualites) and [République et canton de Genève](https://www.ge.ch/publication) web sites. 
-The solution represents [a single script file](main.py) written in [Python 3](https://www.python.org/downloads/) and script ensures that the following steps are performed:
+## Single script for collecting publication and actualites from [Troinex](https://troinex.ch/actualites/), [Communa de plan-les-ouates](https://www.plan-les-ouates.ch/actualites) and [République et canton de Genève](https://www.ge.ch/publication) web sites
+The solution represents [a single script file](main.py) written in [Python 3](https://www.python.org/downloads/) and script performs following steps:
 * Calls `collect_the_data` generic function with valid key word arguments 
 * Function scrapes the data and stores them in the lists
 * Converts collected data from lists into a JSON or CSV format 

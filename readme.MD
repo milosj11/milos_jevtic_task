@@ -1,0 +1,3 @@
+### Class based approach using [Selenium](https://selenium-python.readthedocs.io/) for [Ville de Versoix](https://www.versoix.ch/news/commune/) and [Commune de Collex-Bossy](https://collex-bossy.ch/fr/actualites/)
+
+After cloning the repository and installing dependencies, in case you don't want to use _Chrome_ as browser you have to [import](https://github.com/milosj11/milos_jevtic_task/blob/selenium-class-based-approach/main.py#L6) appropriate `WebDriver` for desired browser and match the variable [option](https://github.com/milosj11/milos_jevtic_task/blob/selenium-class-based-approach/main.py#L8) to the browser.
